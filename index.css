@@ -1,0 +1,1132 @@
+
+.content-section[data-v-ff294b62]{
+    background: #eee;
+}
+.fade-enter-active[data-v-ff294b62], .fade-leave-active[data-v-ff294b62] {
+    transition: opacity .2s ease;
+}
+.fade-enter[data-v-ff294b62], .fade-leave-active[data-v-ff294b62] {
+    opacity: 0
+}
+.locale[data-v-ff294b62]{
+    padding:2px;
+    float:right;
+}
+.active[data-v-ff294b62] {
+    color: #000;
+    font-weight: 800;
+}
+.bca-banner[data-v-ff294b62] {
+  text-align: center;
+}
+.content-section[data-v-ff294b62] {
+    background-color: #f5f5f5;
+}
+/* tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 20;
+  cursor: pointer; }
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none; }
+
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -150px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.24), 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  color: #333;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: normal; }
+
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -7px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid white;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0; }
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1; }
+
+/* ===Common Margins === */
+.margin-5 {
+  margin: 5px !important; }
+
+.margin-10 {
+  margin: 10px !important; }
+
+.margin-15 {
+  margin: 15px !important; }
+
+.margin-20 {
+  margin: 20px !important; }
+
+.margin-right-30 {
+  margin-right: 30px !important; }
+
+.margin-left-30 {
+  margin-left: 30px !important; }
+
+.margin-left-25 {
+  margin-left: 25px !important; }
+
+.margin-right-25 {
+  margin-right: 25px !important; }
+
+.margin-top-25 {
+  margin-top: 25px !important; }
+
+.margin-bottom-25 {
+  margin-bottom: 25px !important; }
+
+.margin-left-20 {
+  margin-left: 20px !important; }
+
+.margin-right-20 {
+  margin-right: 20px !important; }
+
+.margin-top-20 {
+  margin-top: 20px !important; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important; }
+
+.margin-left-15 {
+  margin-left: 15px !important; }
+
+.margin-right-15 {
+  margin-right: 15px !important; }
+
+.margin-top-15 {
+  margin-top: 15px !important; }
+
+.margin-bottom-15 {
+  margin-bottom: 15px !important; }
+
+.margin-left-10 {
+  margin-left: 10px !important; }
+
+.margin-right-10 {
+  margin-right: 10px !important; }
+
+.margin-top-10 {
+  margin-top: 10px !important; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important; }
+
+.margin-left-5 {
+  margin-left: 5px !important; }
+
+.margin-right-5 {
+  margin-right: 5px !important; }
+
+.margin-top-5 {
+  margin-top: 5px !important; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px !important; }
+
+.margin-bottom-0 {
+  margin-bottom: 0px !important; }
+
+.margin-left-0 {
+  margin-left: 0px !important; }
+
+.margin-0-80 {
+  margin: 0px 80px !important; }
+
+.margin-0-30 {
+  margin: 0px 30px !important; }
+
+/* ===Common Paddings === */
+.padding-5 {
+  padding: 5px !important; }
+
+.padding-10 {
+  padding: 10px !important; }
+
+.padding-15 {
+  padding: 15px !important; }
+
+.padding-20 {
+  padding: 20px !important; }
+
+.padding-right-0 {
+  padding-right: 0px !important; }
+
+.padding-5-10 {
+  padding: 5px 10px !important; }
+
+.padding-10-20 {
+  padding: 10px 20px !important; }
+
+.padding-15-20 {
+  padding: 15px 20px !important; }
+
+.padding-20-10 {
+  padding: 20px 10px !important; }
+
+.padding-left-0 {
+  padding-left: 0px !important; }
+
+.padding-right-30 {
+  padding-right: 30px !important; }
+
+.padding-left-30 {
+  padding-left: 30px !important; }
+
+.padding-left-25 {
+  padding-left: 25px !important; }
+
+.padding-right-25 {
+  padding-right: 25px !important; }
+
+.padding-top-25 {
+  padding-top: 25px !important; }
+
+.padding-bottom-25 {
+  padding-bottom: 25px !important; }
+
+.padding-left-20 {
+  padding-left: 20px !important; }
+
+.padding-right-20 {
+  padding-right: 20px !important; }
+
+.padding-top-20 {
+  padding-top: 20px !important; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px !important; }
+
+.padding-left-15 {
+  padding-left: 15px !important; }
+
+.padding-right-15 {
+  padding-right: 15px !important; }
+
+.padding-top-15 {
+  padding-top: 15px !important; }
+
+.padding-bottom-15 {
+  padding-bottom: 15px !important; }
+
+.padding-left-10 {
+  padding-left: 10px !important; }
+
+.padding-right-10 {
+  padding-right: 10px !important; }
+
+.padding-top-10 {
+  padding-top: 10px !important; }
+
+.padding-top-7 {
+  padding-top: 7px !important; }
+
+.padding-bottom-10 {
+  padding-bottom: 10px !important; }
+
+.padding-left-5 {
+  padding-left: 5px !important; }
+
+.padding-right-5 {
+  padding-right: 5px !important; }
+
+.padding-top-5 {
+  padding-top: 5px !important; }
+
+.padding-bottom-5 {
+  padding-bottom: 5px !important; }
+
+.padding-left-right-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.width-10 {
+  width: 10%; }
+
+.width-20 {
+  width: 20%; }
+
+.width-30 {
+  width: 30%; }
+
+.width-40 {
+  width: 40%; }
+
+.width-50 {
+  width: 50%; }
+
+.width-60 {
+  width: 60%; }
+
+.width-70 {
+  width: 70%; }
+
+.width-80 {
+  width: 80%; }
+
+.width-90 {
+  width: 90%; }
+
+.width-100 {
+  width: 100%; }
+
+.width-5 {
+  width: 10%; }
+
+.width-15 {
+  width: 15%; }
+
+.width-25 {
+  width: 25%; }
+
+.width-35 {
+  width: 35%; }
+
+.width-45 {
+  width: 45%; }
+
+.width-55 {
+  width: 55%; }
+
+.width-65 {
+  width: 65%; }
+
+.width-75 {
+  width: 75%; }
+
+.width-85 {
+  width: 85%; }
+
+.width-95 {
+  width: 95%; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.vertical-align-middle {
+  vertical-align: middle; }
+
+/* ===Common Margins === */
+.margin-5 {
+  margin: 5px !important; }
+
+.margin-10 {
+  margin: 10px !important; }
+
+.margin-15 {
+  margin: 15px !important; }
+
+.margin-20 {
+  margin: 20px !important; }
+
+.margin-right-30 {
+  margin-right: 30px !important; }
+
+.margin-left-30 {
+  margin-left: 30px !important; }
+
+.margin-left-25 {
+  margin-left: 25px !important; }
+
+.margin-right-25 {
+  margin-right: 25px !important; }
+
+.margin-top-25 {
+  margin-top: 25px !important; }
+
+.margin-bottom-25 {
+  margin-bottom: 25px !important; }
+
+.margin-left-20 {
+  margin-left: 20px !important; }
+
+.margin-right-20 {
+  margin-right: 20px !important; }
+
+.margin-top-20 {
+  margin-top: 20px !important; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important; }
+
+.margin-left-15 {
+  margin-left: 15px !important; }
+
+.margin-right-15 {
+  margin-right: 15px !important; }
+
+.margin-top-15 {
+  margin-top: 15px !important; }
+
+.margin-bottom-15 {
+  margin-bottom: 15px !important; }
+
+.margin-left-10 {
+  margin-left: 10px !important; }
+
+.margin-right-10 {
+  margin-right: 10px !important; }
+
+.margin-top-10 {
+  margin-top: 10px !important; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important; }
+
+.margin-left-5 {
+  margin-left: 5px !important; }
+
+.margin-right-5 {
+  margin-right: 5px !important; }
+
+.margin-top-5 {
+  margin-top: 5px !important; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px !important; }
+
+.margin-bottom-0 {
+  margin-bottom: 0px !important; }
+
+.margin-left-0 {
+  margin-left: 0px !important; }
+
+.margin-0-80 {
+  margin: 0px 80px !important; }
+
+.margin-0-30 {
+  margin: 0px 30px !important; }
+
+/* ===Common Paddings === */
+.padding-5 {
+  padding: 5px !important; }
+
+.padding-10 {
+  padding: 10px !important; }
+
+.padding-15 {
+  padding: 15px !important; }
+
+.padding-20 {
+  padding: 20px !important; }
+
+.padding-right-0 {
+  padding-right: 0px !important; }
+
+.padding-5-10 {
+  padding: 5px 10px !important; }
+
+.padding-10-20 {
+  padding: 10px 20px !important; }
+
+.padding-15-20 {
+  padding: 15px 20px !important; }
+
+.padding-20-10 {
+  padding: 20px 10px !important; }
+
+.padding-left-0 {
+  padding-left: 0px !important; }
+
+.padding-right-30 {
+  padding-right: 30px !important; }
+
+.padding-left-30 {
+  padding-left: 30px !important; }
+
+.padding-left-25 {
+  padding-left: 25px !important; }
+
+.padding-right-25 {
+  padding-right: 25px !important; }
+
+.padding-top-25 {
+  padding-top: 25px !important; }
+
+.padding-bottom-25 {
+  padding-bottom: 25px !important; }
+
+.padding-left-20 {
+  padding-left: 20px !important; }
+
+.padding-right-20 {
+  padding-right: 20px !important; }
+
+.padding-top-20 {
+  padding-top: 20px !important; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px !important; }
+
+.padding-left-15 {
+  padding-left: 15px !important; }
+
+.padding-right-15 {
+  padding-right: 15px !important; }
+
+.padding-top-15 {
+  padding-top: 15px !important; }
+
+.padding-bottom-15 {
+  padding-bottom: 15px !important; }
+
+.padding-left-10 {
+  padding-left: 10px !important; }
+
+.padding-right-10 {
+  padding-right: 10px !important; }
+
+.padding-top-10 {
+  padding-top: 10px !important; }
+
+.padding-top-7 {
+  padding-top: 7px !important; }
+
+.padding-bottom-10 {
+  padding-bottom: 10px !important; }
+
+.padding-left-5 {
+  padding-left: 5px !important; }
+
+.padding-right-5 {
+  padding-right: 5px !important; }
+
+.padding-top-5 {
+  padding-top: 5px !important; }
+
+.padding-bottom-5 {
+  padding-bottom: 5px !important; }
+
+.padding-left-right-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.width-10 {
+  width: 10%; }
+
+.width-20 {
+  width: 20%; }
+
+.width-30 {
+  width: 30%; }
+
+.width-40 {
+  width: 40%; }
+
+.width-50 {
+  width: 50%; }
+
+.width-60 {
+  width: 60%; }
+
+.width-70 {
+  width: 70%; }
+
+.width-80 {
+  width: 80%; }
+
+.width-90 {
+  width: 90%; }
+
+.width-100 {
+  width: 100%; }
+
+.width-5 {
+  width: 10%; }
+
+.width-15 {
+  width: 15%; }
+
+.width-25 {
+  width: 25%; }
+
+.width-35 {
+  width: 35%; }
+
+.width-45 {
+  width: 45%; }
+
+.width-55 {
+  width: 55%; }
+
+.width-65 {
+  width: 65%; }
+
+.width-75 {
+  width: 75%; }
+
+.width-85 {
+  width: 85%; }
+
+.width-95 {
+  width: 95%; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.vertical-align-middle {
+  vertical-align: middle; }
+
+.btn {
+  margin: 0;
+  padding: 5px 0px;
+  width: 60px;
+  font-size: 12px;
+  border-radius: 4px;
+  text-transform: none;
+  box-shadow: none !important;
+  color: #ffffff;
+  border: none; }
+  .btn.disabled {
+    cursor: default; }
+  .btn.btn-primary {
+    background: #0096d9; }
+  .btn.btn-danger {
+    background: #f8011e; }
+  .btn.btn-success {
+    background: #00b35e; }
+  .btn.auto {
+    width: auto;
+    padding: 3px; }
+  .btn.full {
+    width: 100%;
+    padding: 10px 0; }
+  .btn.sm {
+    width: 50px;
+    padding: 4px 0; }
+  .btn.md {
+    width: 80px; }
+  .btn.lg {
+    width: 120px;
+    line-height: 32px;
+    padding: 8px; }
+  .btn.xlg {
+    width: 143px;
+    line-height: 40px;
+    font-size: 14px; }
+  .btn.xxlg {
+    width: 170px;
+    font-size: 16px; }
+
+.drop-down {
+  background-color: #ffffff;
+  border: solid 1px #cccccc; }
+  .drop-down.md {
+    width: 150px;
+    height: 32px; }
+
+.b-shadowed {
+  box-shadow: 0 0 24px -4px rgba(0, 0, 0, 0.12); }
+
+.b-overflow-x, .b-overflow-y {
+  scrollbar-color: #d6d6d6 transparent;
+  scrollbar-width: thin; }
+  .b-overflow-x::-webkit-scrollbar, .b-overflow-y::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: transparent; }
+  .b-overflow-x::-webkit-scrollbar-thumb, .b-overflow-y::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #d6d6d6; }
+  .b-overflow-x::-webkit-scrollbar-track, .b-overflow-y::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: transparent; }
+
+.b-overflow-x {
+  overflow-x: auto; }
+
+.b-overflow-y {
+  overflow-y: auto;
+  margin: 5px 3px 5px 0; }
+
+/* New Sprite Header & Footer */
+.icon_PosPay, .icon_adx, .icon_amex, .icon_amex_safekey, .icon_btpn, .icon_atmbersama, .icon_atri, .icon_bank-bri, .icon_bank-mega, .icon_bca, .icon_bca-klikpay, .icon_bes, .icon_bii, .icon_bni-debit-online, .icon_bni46, .icon_briTouch, .icon_bukopin, .icon_cimb-click, .icon_cimb-niaga, .icon_citi, .icon_danamon, .icon_debita-btn-online, .icon_e-pay-bri, .icon_etobee, .icon_first_logistics, .icon_gosend, .icon_hsbc, .icon_idea, .icon_jcb, .icon_jcb-cc, .icon_jne, .icon_jt_express, .icon_klik-bca, .icon_mandiri, .icon_mandiri-card, .icon_mandiri-clickpay, .icon_mandiriecash, .icon_master-card, .icon_mastercard-securecard, .icon_mnc, .icon_ncs, .icon_nex, .icon_ninja, .icon_norton, .icon_ocbc-nisp, .icon_panin-bank, .icon_permata-bank, .icon_primatama, .icon_raja, .icon_rpx, .icon_sakuku, .icon_sap, .icon_standar-chartered, .icon_telkomsel-poin, .icon_tiki, .icon_uob, .icon_verified-visa, .icon_visa, .icon_xl-tunai, .BTPN, .inst-BTPNInstallment, .inst-BCA, .inst-BII, .inst-BIIInstallment, .inst-BNI, .inst-BNIInstallment, .inst-BRI, .inst-BRIInstallment, .inst-Bukopin, .inst-BukopinInstallment, .inst-CIMBInstallment, .inst-CIMBNiaga, .inst-Citibank, .inst-CitibankInstallment, .inst-Danamon, .inst-DanamonInstallment, .inst-HSBC, .inst-HSBCInstallment, .inst-KlikPayInst, .inst-MIGSBCAInst, .inst-MNC, .inst-MNCInstallment, .inst-Mandiri, .inst-MandiriInstallment, .inst-Mega, .inst-MegaInstallment, .inst-OCBCNISP, .inst-OcbcNispInstallment, .inst-Panin, .inst-PaninInstallment, .inst-Permata, .inst-PermataInstallment, .inst-StandardChartered, .inst-StandardCharteredInstallment, .inst-UOB, .inst-UOBInstallment, .inst-Veritrans, .mp-Akulaku, .mp-AtmBersama, .mp-BcaOneKlik, .mp-BNI, .mp-BRI, .mp-BRITouchInstallment, .mp-BTNDebitOnline, .mp-CIMBClicks, .mp-DebitMandiri, .mp-HomeCreditIndonesia, .mp-Indomaret, .mp-KlikBCA, .mp-KlikPAYFullPayment, .mp-Kredivo, .mp-MandiriDebit, .mp-MandiriEcash, .mp-PosPay, .mp-Sakuku, .mp-TelkomselPoin, .mp-XLTunai, .inst-Akulaku, .inst-Kredivo, .inst-HomeCreditIndonesia, .inst-Vospay, .mp-SinarmasCreditCard, .inst-Sinarmas, .inst-SinarmasInstallment, .icon_bank-sinarmas,
+.icon_mayapada, .inst-Mayapada, .inst-MayapadaInstallment,
+.icon_veritrans-go-pay, .mp-VeritransGoPay,
+.inst-CitibankMasterCardInstallment,
+.inst-CitibankVisaInstallment,
+.inst-MandiriInstallmentSpeedOrder,
+.inst-StandardCharteredTitaniumInstallment,
+.inst-StandardCharteredVisaPlatinumInstallment,
+.inst-BRITouchInstallment,
+.inst-CimbNiagaAirAsiaInstallment,
+.inst-MegaBarcelonaInstallment,
+.inst-ShinhanInstallment,
+.inst-CIMBNIAGAInstallment,
+.inst-BJBInstallment, .inst-BJB,
+.inst-MandiriJCBInstallment,
+.inst-PermataMastercardTitaniumInstallment,
+.mp-Vospay, .mp-vospay {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left; }
+
+.inst-BJBInstallment,
+.inst-BJB {
+  background: url("") no-repeat center;
+  width: 58px;
+  height: 31px; }
+
+.icon_veritrans-go-pay, .mp-VeritransGoPay {
+  background: url("") no-repeat center;
+  width: 51px;
+  height: 32px; }
+
+.icon_sakuku, .mp-Sakuku {
+  background: url("") no-repeat center;
+  width: 51px;
+  height: 32px; }
+
+.inst-HomeCreditIndonesia, .mp-HomeCreditIndonesia {
+  background: url("") no-repeat center;
+  width: 54px;
+  height: 31px; }
+
+.inst-Kredivo, .mp-Kredivo {
+  background: url("") no-repeat center;
+  width: 54px;
+  height: 31px; }
+
+.inst-Akulaku, .mp-Akulaku {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_btpn, .inst-BTPN, .inst-BTPNInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bank-bri, .inst-BRI, .inst-BRIInstallment, .inst-BRITouchInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bank-mega, .inst-Mega, .inst-MegaInstallment, .inst-MegaBarcelonaInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bank-sinarmas, .inst-Sinarmas, .mp-SinarmasCreditCard, .inst-SinarmasInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bca-klikpay, .inst-KlikPayInst, .mp-KlikPAYFullPayment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bca, .inst-BCA, .inst-MIGSBCAInst {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.mp-BcaOneKlik {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bii, .inst-BII, .inst-BIIInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bni-debit-online, .inst-BNIInstallment, .mp-BNI {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bni46, .inst-BNI {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_cimb-click, .mp-CIMBClicks {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_cimb-niaga, .inst-CIMBInstallment, .inst-CIMBNIAGAInstallment, .inst-CIMBNiaga, .inst-CimbNiagaAirAsiaInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_citi, .inst-Citibank, .inst-CitibankInstallment, .inst-CitibankMasterCardInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.inst-CitibankVisaInstallment {
+  background-image: url("");
+  background-size: 100% 100%;
+  width: 50px;
+  height: 31px; }
+
+.icon_danamon, .inst-Danamon, .inst-DanamonInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_debita-btn-online, .mp-BTNDebitOnline {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_e-pay-bri, .mp-BRI {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_hsbc, .inst-HSBC, .inst-HSBCInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_idea {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_jcb-cc {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_jcb {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.inst-MandiriJCBInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_jne {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_klik-bca, .mp-KlikBCA {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mandiri-card, .mp-DebitMandiri {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mandiri-clickpay, .mp-MandiriDebit {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mandiri, .inst-Mandiri, .inst-MandiriInstallment, .inst-MandiriInstallmentSpeedOrder {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mandiriecash, .mp-MandiriEcash {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_master-card {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mastercard-securecard {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mnc, .inst-MNC, .inst-MNCInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 32px; }
+
+.icon_ncs {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_norton {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_ocbc-nisp, .inst-OCBCNISP, .inst-OcbcNispInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_panin-bank, .inst-Panin, .inst-PaninInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_permata-bank, .inst-Permata, .inst-PermataInstallment, .inst-PermataMastercardTitaniumInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_rpx {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_standar-chartered, .inst-StandardChartered, .inst-StandardCharteredInstallment, .inst-StandardCharteredTitaniumInstallment, .inst-StandardCharteredVisaPlatinumInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_telkomsel-poin, .mp-TelkomselPoin {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_uob, .inst-UOB, .inst-UOBInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_mayapada, .inst-Mayapada, .inst-MayapadaInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_verified-visa {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_visa {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_xl-tunai, .mp-XLTunai {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bukopin, .inst-Bukopin, .inst-BukopinInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_amex {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_amex_safekey {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.mp-Indomaret {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_bes {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_etobee {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_first_logistics {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_atri {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_adx {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_jt_express {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_nex {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_primatama {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_sap {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_tiki {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_PosPay, .mp-PosPay {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_briTouch, .mp-BRITouchInstallment {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_atmbersama, .mp-AtmBersama {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_ninja {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_gosend {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_raja {
+  background: url("") no-repeat center;
+  width: 50px;
+  height: 31px; }
+
+.icon_sicepat {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_lion_parcel {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_grab_express {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_union_logistic {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_nss {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_alfatrex {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_popbox {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.icon_ceria-mart {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.mp-AlfaGroup {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.inst-ANZ, .inst-ANZInstallment {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.inst-Shinhan, .inst-ShinhanInstallment {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+
+.inst-Vospay, .mp-Vospay, .mp-vospay {
+  background: url("") no-repeat center;
+  display: inline-block;
+  width: 50px;
+  height: 31px; }
+@font-face {
+  font-family: 'effra';
+  src: url("effra_std_rg-webfont.d9403b9.woff") format("woff"), url("effra_std_rg-webfont.693703c-1.ttf") format("truetype"); }
+
+.full-width {
+  width: 100% !important; }
+
+.icon-class {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 3px 3px; }
+
+.icon-white {
+  filter: invert(1.5);
+  width: 1rem;
+  height: 1rem; }
